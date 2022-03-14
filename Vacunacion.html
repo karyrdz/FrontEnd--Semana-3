@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="./styles/styles.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css" integrity="sha384-3B6NwesSXE7YJlcLI9RpRqGf2p/EgVH8BgoKTaUrmKNDkHPStTQ3EyoYjCGXaOTS" crossorigin="anonymous">
+    
+        <title>Vaccunación</title>
+    </head>
+    <body>
+        <nav class="nav">
+            <h1 class="logo">Vacunación</h1>
+            <ul class="menu">
+                <li><a class="menu__link" href="#">Base de datos</a></li>
+                <li><a class="menu__link" href="#">Educacion</a></li>
+                <li><a class="menu__link" href="#">Noticias</a></li>
+                <li><a class="menu__link" href="#">Regulacion</a></li>
+                <button class="button__link" type="button">Hoax Buster</button>
+            </ul>
+        </nav>
+        <main>
+            <section class="banner">
+                <div class="banner__item banner__item--left">
+                    <h1>Lucha Contra  El <br> Virus Vacunandote</h1>
+                    <p>Paremos la pandemia matando al virus
+                        con una vacuna, <br> no te dejes infectar ni a ti
+                        ni a tu familia</p>
+
+                    <div class="banner__icons">
+                        <div class="banner__icons--item banner__icons--left">
+                            <i class="fa-solid fa-shield icon__banner"></i> <p>La mejor protección</p>
+                        </div>  
+                        <div class="banner__icons--item banner__icons--right">
+                            <i class="fa-solid fa-star icon__banner"></i><p>Selecciona tu vacuna</p>
+                        </div>
+                    
+                    </div>
+                    <div class="banner__schelude">
+                        <br>
+                        <i class="fa-solid fa-clock banner__schelude--icon"></i><p>Agenda tu vacuna</p>
+                    </div>
+                </div>
+                <div class="banner__item banner__item--right">
+                    <img class="banner__item--nurse" src="./assets/images/enfermera.png" alt="nurse">
+                </div>
+                <div class="banner__input">
+                    <div class="banner__input--location">
+                        <i class="fa-solid fa-location-dot icon__input"></i>
+                        <label for="location">Lugar</label>
+                        <input type="text" name="location" id="location" class="input__location" placeholder="Ubicación">
+                    </div>
+                    <div class="banner__input--date">
+                        <i class="fa-solid fa-calendar-days icon__input"></i>
+                        <label for="date">Fecha</label>
+                        <input type="date" name="date" id="date" class="input__date" placeholder="Fecha">
+                    </div>
+                    <div class="banner__input--vaccine">
+                        <i class="fa-solid fa-syringe icon__input"></i>
+                        <label for="vaccine">Vacuna</label>
+                        <select name="vaccine" id="vaccine" class="input__vaccine">
+                            <option value="moderna">Moderna</option>
+                            <option value="astrazeneca">AstraZeneca</option>
+                            <option value="sinovac">Sinovac</option>
+                            <option value="pfizer">Pfizer</option>
+                        </select>
+                    </div>
+                    <div class="banner__input--submite">
+                        <button type="submit" class="banner__input--button">Agendar</button>
+                    </div>
+                </div>
+            </section>
+            <p><br>
+            <br></p>
+            <section class="brands">
+                <div class="brand__item brand__item--left">
+                    <img class="brand__logo"src="./assets/images/astrazeneca.png" alt="astrazeneca logo">
+                    <img class="brand__logo"src="./assets/images/sinovac.png" alt="sinovac logo">
+                </div>
+                <div class="brand__item brand__item--right">
+                    <img class="brand__logo"src="./assets/images/pfizer.png" alt="pfizer logo">
+                    <img class="brand__logo"src="./assets/images/moderna.png" alt="moderna logo">
+                </div>
+            </section>
+            
+            <section class="benefits">
+                <div class="benefits__question">
+                    <h2>¿Por qué vacunarme?</h2>
+                    <p>Para evitar cualquier duda acerca de la vacuna contra el COVID-19, te mostramos los 4 beneficios de la vacunación:</p>
+                </div>
+                <div class="benefits__cards">
+                    <div class="benefits__cards--item benefits__cards--left">
+                        <div class="benefits__card">
+                            <i class="fa-solid fa-viruses"></i>
+                            <h3>Minimizar la<br> propagación del virus</h3>
+                            <p>La vacuna ha comprobado la efectividad de prevenir el infectarse de coronavirus</p>
+                        </div>
+                        <div class="benefits__card">
+                            <i class="fa-solid fa-shield-virus"></i>
+                            <h3>Formando <br>anticuerpos</h3>
+                            <p>La vacuna contra el COVID-19 ayuda a la formación de anticuerpos para el sistema inmune</p>
+                        </div>
+                    </div>
+                    <div class="benefits__cards--item benefits__cards--right">
+                        <div class="benefits__card">
+                            <i class="fa-solid fa-users"></i>
+                            <h3>Proteges a las <br>personas cercanas</h3>
+                            <p>Uno de los beneficios de la vacuna es que con ella podemos ayudar también a proteger a las personas de nuestro alrededor</p>
+                        </div>
+                        <div class="benefits__card">
+                            <i class="fa-solid fa-chart-line"></i>
+                            <h3>Inmunidad grupal</h3>
+                            <p>La vacuna contra COVID-19 también es beneficiosa para crear inmunidad grupal </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="preparation">
+                <div class="preparation__item preparation__item--left">
+                    <img class="patient" src="./assets/images/paciente.png" alt="patient">                
+                </div>
+                <div class="preparation__item preparation__item--right">
+                    <h2>Antes de vacunarte</h2>
+                    <p style="color: black;">El éxito de la vacuna está fuertemente ligada a<br>
+                    lo fuerte del sistema inmune del cuerpo. Sin embargo, hay <br>
+                    varias recomendaciones que pueden ser tomadas para lograr que la vacuna del COVID-19 funcione:</p>
+                    
+                    <div class="accordion">
+                        <div class="accordion__item">
+                            <div class="accordion__item--header">
+                                <i class="fa-solid fa-shield"></i><h3>Evitar bebidas alcoholicas</h3><i class="fa-solid fa-caret-down icon__left"></i>
+                            </div>
+                        </div>
+                        <div class="accordion__item">
+                            <div class="accordion__item--header active">
+                                <i class="fa-solid fa-square-xmark"></i><h3>Evitar estres</h3><i class="fa-solid fa-caret-down"></i>
+                            </div>
+                        </div>
+                        <div class="accordion__item">
+                            <div class="accordion__item--header">
+                                <i class="fa-solid fa-utensils"></i><h3>Comer saludable</h3><i class="fa-solid fa-caret-down"></i>
+                            </div>
+                        </div>
+                        <div class="accordion__item">
+                            <div class="accordion__item--header">
+                                <i class="fa-solid fa-bed"></i><h3>Dormir bien</h3><i class="fa-solid fa-caret-down"></i>
+                            </div>
+                        </div>
+                        <div class="accordion__item">
+                            <div class="accordion__item--header">
+                                <i class="fa-solid fa-dumbbell"></i><h3>Ejercicio o actividad física</h3><i class="fa-solid fa-caret-down"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="contact">
+                <div class="contact__item contact__item--left">
+                    
+                    <h2>Contacto de emergencia</h2>
+                    <p>Contactanos si tú o tu familiar no se siente bien <br>
+                        y tiene síntomas  parecidos al COVID-19<br>
+                        Asegurate de cuidarte a ti mismo antes de contactarnos</p>
+                    
+                    <div class="contact__cards">
+                        <div class="contact__card--item contact__card--left">
+                            <div class="contact__card">
+                                <i class="fa-solid fa-phone"></i>
+                                <div class="contact__card--title">
+                                    <h3>Llamada</h3>
+                                    <p>xx-xxx-xxxx</p>
+                                </div>
+                                <button>Llamanos</button>
+                            </div>
+                            <div class="contact__card contact__card--chat">
+                                <i class="fa-solid fa-comment-dots"></i>
+                                <div class="contact__card--title">
+                                    <h3>Chat</h3>
+                                    <p><br></p>
+                                </div>
+                                <button>Escribenos</button>
+                            </div>
+                        </div>
+                        <div class="contact__card--item contact__card--right">
+                            <div class="contact__card contact__card--videocall">
+                                <i class="fa-solid fa-video"></i>
+                                <div class="contact__card--title">
+                                    <h3>Video llamada</h3>
+                                </div>
+                                <button>Llamanos</button>
+                            </div>
+                            <div class="contact__card contact__card--message">
+                                <i class="fa-solid fa-envelope"></i>
+                                <div class="contact__card--title">
+                                    <h3>Texto</h3>
+                                    <p>xx-xxx-xxxx</p>
+                                </div>
+                                <button>Escribenos</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact__item contact__item--right">
+                    <img src="./assets/images/enfermero.png" alt="Male Nuse">
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="footer">
+                <div class="footer__item footer__item--left">
+                    <h1 class="logo__footer">Vacunación</h1>
+                    <p>Nuestra meta es liberar <br>
+                        al mundo de la <br>
+                        pandemía actual</p>
+                </div>
+                <div class="footer__item footer__item--right">
+                    <div class="footer__item--info">
+                        <ul>
+                            <li class="footer__item--li"><a href="#" class="footer__item--link footer__header">Nosotros</a></li>
+                            <li class="footer__item--li"><a href="#" class="footer__item--link">Acerca de nosotros</a></li>
+                            <li class="footer__item--li"><a href="#" class="footer__item--link">Inversores</a></li>
+                            <li class="footer__item--li"><a href="#" class="footer__item--link">Noticias y blog</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__item--info">
+                        <ul>
+                            <li class="footer__item--li "><a href="#" class="footer__item--link footer__header">Compañia</a></li>
+                            <li class="footer__item--li"><a href="#" class="footer__item--link">¿Qué hacemos</a></li>
+                            <li class="footer__item--li"><a href="#" class="footer__item--link">Capital</a></li>
+                            <li class="footer__item--li"><a href="#" class="footer__item--link">Seguridad</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__item--info">
+                        <ul>
+                            <li class="footer__item--header "><a href="#" class="footer__item--link footer__header">ayuda</a></li>
+                            <li class="footer__item--li"><a href="#" class="footer__item--link">FAQs</a></li>
+                            <li class="footer__item--li"><a href="#" class="footer__item--link">Centro de ayuda</a></li>
+                            <li class="footer__item--li"><a href="#" class="footer__item--link">Contactanos</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__final">
+                <div class="footer__final--item footer__final--left">
+                    <p>©2022 Vaccination. All rights reserved </p>
+                </div>
+                <div class="footer__final--item footer__final--right">
+                    <ul>
+                        <li><a href="#" class="terms">Terminos y Condiciones</a></li>
+                        <li><a href="#">Politica de Privacidad</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
